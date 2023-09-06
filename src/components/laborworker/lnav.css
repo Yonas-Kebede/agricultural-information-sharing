@@ -1,0 +1,6 @@
+.navLink1:focus{
+    border-bottom: solid 2px blue;
+    color:blue;
+    font-weight: bold;
+   
+}

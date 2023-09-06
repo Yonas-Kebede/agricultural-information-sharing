@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+ 
+}
+
+
+
+
+
+.user-profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid rgb(186, 181, 181);
+  border-radius: 5px;
+  visibility: visible;
+  
+}
+
+.user-profile-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.user-profile-container div {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.nav-link img{
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+
+.user-profile-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-container label {
+  margin-bottom: 10px;
+}
+
+.profile-photo img{
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+
+
+.user-profile-container input[type="text"],
+.user-profile-container input[type="file"] {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.user-profile-container button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button{
+  margin-right: 10%;
+}
+
+.user-profile-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.nav-link-profile{
+  margin-left: 0%;
+}
+
+
+.Navbar img{
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.Navbar-link{
+  margin-right: 2%;
+  text-decoration: none;
+  size: 20%;
+  font-weight: bold;
+  color: blue;
+  margin-top: 2%;
+  
+}
+
+.logout-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.logout-button{
+  margin-left: 7%;
+}
+
